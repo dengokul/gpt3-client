@@ -85,8 +85,8 @@ const handleSubmit = async (e) => {
 
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
-    // const API_URL = 'https://codex-im0y.onrender.com/';
-    const API_URL = 'http://localhost:5000';
+    const API_URL = 'https://gpt3-server-6txb.onrender.com';
+    // const API_URL = 'http://localhost:5000';
     const response = await fetch(`${API_URL}`, {
         method: 'POST',
         headers: {
